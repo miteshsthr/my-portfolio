@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mitesh</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <input type="checkbox" id="theme-toggle" />
+
+    <nav class="navbar">
+      <div class="logo">Mitesh.</div>
+
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+        <li>
+          <label for="theme-toggle" class="theme-btn">
+            <span class="sun">☀️ Light</span>
+            <span class="moon">🌙 Dark</span>
+          </label>
+        </li>
+      </ul>
+    </nav>
+
+    <header id="home" class="hero">
+      <div class="hero-content">
+        <div class="profile-container">
+          <img
+            src="./Mitesh-Profile.jpg"
+            alt="Profile Photo"
+            class="profile-photo"
+          />
+        </div>
+
+        <h1 class="typing-text">
+          Hi, I'm <span class="highlight">Mitesh</span>
+        </h1>
+
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+    </header>
+
+    <section id="about" class="section">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-container">
+        <p>
+          I am a passionate developer focusing on building clean, user-friendly
+          experiences. I love solving problems with code and turning ideas into
+          reality.
+        </p>
+
+        <div class="skills">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>Responsive Design</span>
+          <span>UI/UX</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>
+            A fully responsive portfolio built with pure HTML and CSS, featuring
+            dark mode and animations.
+          </p>
+          <a href="#">View Code &rarr;</a>
+        </div>
+        <div class="project-card">
+          <h3>E-Commerce UI</h3>
+          <p>
+            A modern product page layout designed with CSS Grid and Flexbox.
+          </p>
+          <a href="#">View Code &rarr;</a>
+        </div>
+        <div class="project-card">
+          <h3>Task Dashboard</h3>
+          <p>
+            A clean dashboard interface for managing daily tasks and
+            productivity.
+          </p>
+          <a href="#">View Code &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-container">
+        <p>Have a project in mind? Let's connect!</p>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="5" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
